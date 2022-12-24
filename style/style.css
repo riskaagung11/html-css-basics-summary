@@ -15,10 +15,35 @@ header img {
   width: 300px;
 }
 main {
-  background-color: rgb(122, 74, 218);
+  background-color: #7a4ada;
   padding: 32px;
   width: 700px;
   margin: 32px auto;
   border-radius: 8px;
-  color: rgb(248, 241, 255);
+  color: #f8f1ff;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+.extra-important {
+  color: #ffedb1;
+  border-color: #f7d155;
+}
+a {
+  text-decoration: none;
+  color: #240366;
+  background-color: #ffedb1;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+a:hover,
+a:active {
+  background-color: rgb(250, 201, 39);
 }
