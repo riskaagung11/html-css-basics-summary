@@ -45,5 +45,23 @@ a {
 }
 a:hover,
 a:active {
-  background-color: rgb(250, 201, 39);
+  background-color: #fac927;
+}
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border-color: #fac927;
+  color: #423304;
+}
+footer a:hover,
+footer a:active {
+  background-color: rgb(255, 186, 58);
+}
+footer p {
+  color: #837195;
+  margin-top: 30px;
 }
